@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<body></body>
+<script>
+  // 1. munculin input dulu
+  const input = document.createElement('input')
+  document.body.append(input)
+
+  // 2. munculin button
+  const button = document.createElement('button')
+  button.innerText = 'munculin isi input di console'
+  document.body.append(button)
+
+  // 3. tangkep klik di button
+  button.addEventListener('click', function() {
+    // 4. munculin isi input
+    console.log(input.value)
+  })
+</script>
