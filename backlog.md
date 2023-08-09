@@ -1,0 +1,4 @@
+- [ ] bisa bikin file html
+- [ ] bisa bikin file javascript
+- [ ] bisa bikin program javascript level paling gampang
+- [ ] bisa jalanin program javascript di browser
