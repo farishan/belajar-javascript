@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../assets/css/index.css">
+  <link rel="manifest" href="../assets/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+
+  <title>Step 1 | Petualangan JavaScript</title>
+</head>
+
+<body>
+  <header>
+    <a href="../basecamp.html">&larr; balik ke basecamp</a>
+  </header>
+  <main>
+
+    <article>
+      <h1>
+        Step 1: Siapin senjata buat nyatet
+      </h1>
+
+      <div class="tldr">
+        🚀 intinya: kita punya alat buat nyatet.
+      </div>
+
+      <hr>
+
+      <blockquote>
+        "<a href="https://id.wikipedia.org/wiki/Verba_volant,_scripta_manent" target="_blank">verba volant scripta manent</a>"
+      </blockquote>
+
+      <p>
+        siapin alat buat nyatetnya. bebas. faris bakal pake aplikasi GNOME Text Editor bawaan Ubuntu 22.04.
+      </p>
+
+      <figure>
+        <img src="./text-editor-di-ubuntu.png" alt="gambar screenshot gnome text editor di ubuntu">
+        <figcaption>gambar screenshot gnome text editor di ubuntu</figcaption>
+      </figure>
+      <figure>
+        <img src="./text-editor-di-ubuntu-1.png" alt="gambar screenshot gnome text editor di ubuntu">
+        <figcaption>gambar screenshot gnome text editor di ubuntu</figcaption>
+      </figure>
+
+      <p>
+        buat yang pake Windows, ada Notepad. iOS ada Note (kalau ga salah; maklum saya belum mampu beli)
+      </p>
+    </article>
+
+    <pre>
+    </pre>
+
+    <div>
+      <label>log buat di-copy-paste:<br>
+        <textarea id="log" style="width: 100%">20230810 dapet senjata buat nyatet</textarea>
+      </label>
+    </div>
+  </main>
+  <script>
+    function formatDateToYYYYMMDD(date) {
+      // Get the year, month, and day from the date object.
+      const year = date.getFullYear();
+      const month = date.getMonth() + 1;
+      const day = date.getDate();
+
+      // Pad the month and day with zeros if they are less than 10.
+      month = month < 10 ? "0" + month : month;
+      day = day < 10 ? "0" + day : day;
+
+      // Return the date in the format YYYYMMDD.
+      return year + month + day;
+    }
+  </script>
+  <script>
+    document.getElementById('log').value = `${formatDateToYYYYMMDD(new Date())} dapet senjata buat nyatet`
+  </script>
+</body>
+
+</html>

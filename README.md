@@ -1,5 +1,7 @@
 # Petualangan Belajar JavaScript
 
+- [project control](https://github.com/users/farishan/projects/9)
+- [wiki](https://github.com/farishan/belajar-javascript/wiki)
 - [prinsip dan syarat belajar](./prinsip-dan-syarat.md)
 - [peta (FigJam)](https://www.figma.com/file/PetPaQuoHu8xV88P7b8VlA/belajar-javascript?type=whiteboard&node-id=0-1&t=4UXTbeZGbl3s6Tl5-0)
 
