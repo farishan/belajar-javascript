@@ -111,6 +111,18 @@ button {
 .tldr {
   padding: 1rem;
   background-color: var(--thin-background);
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.tldr::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: var(--thin-background);
 }
 
 .last-updated-at {

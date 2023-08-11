@@ -10,26 +10,32 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
 
-  <title>Apa itu HTML | Petualangan Belajar JavaScript</title>
-  <meta name="description" content="Petualangan belajar JavaScript asik tanpa ribet, bareng Faris Han">
+  <title>Monster Mata | Petualangan JavaScript</title>
 </head>
 
 <body>
   <header>
-    <a href="../basecamp.html">&larr; balik ke basecamp</a>
+    <a href="../basecamp.html">&larr; 🏕️ Basecamp</a>
   </header>
-
   <main>
+
     <article>
-      <h1 id="apa-itu-html">Apa itu HTML</h1>
-      <p>HTML itu bahasa untuk bikin dokumen. Bukan sembarang dokumen, karena bisa dipencet-pencet. Kalau dokumen yang
-        dibuat pake text editor kayak Notepad kan ga bisa bikin link yang bisa dipencet, kalau HTML bisa.</p>
+      <div class="tldr">
+        🚀 intinya: kita bisa liat output program kita.
+      </div>
+
     </article>
   </main>
 
   <footer>
-    <p class="last-updated-at">terakhir di-update: 2023-08-10 19:18:06</p>
+    <div id="log"></div>
   </footer>
+
+  <script src="./script.js"></script>
+  <script>
+    generateLog('bisa liat output program kita.');
+  </script>
+
 </body>
 
 </html>

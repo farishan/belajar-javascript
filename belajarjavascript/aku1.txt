@@ -1,0 +1,11 @@
+nama: faris han
+poin: 0
+
+senjata:
+- mesin: thinkpad t440p
+- sistem operasi: ubuntu 22.04 jammy jellyfish
+- code editor: vscode
+- browser: Mozilla Firefox Snap for Ubuntu v115.0
+
+misi:
+1. ngerti cara bikin file html | hadiah: 1 poin
