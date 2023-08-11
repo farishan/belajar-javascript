@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../assets/css/index.css">
+  <link rel="manifest" href="../../assets/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
+
+  <title>Mental Model Nulis Tag HTML | Petualangan JavaScript</title>
+  <meta name="description" content="Petualangan belajar JavaScript asik tanpa ribet, bareng Faris Han">
+</head>
+
+<body>
+  <header>
+    <a href="../index.html">&larr; 🏕️ Basecamp</a> | <a href="./index.html">🍪 Gudang Makanan</a> | <button onclick="window.history.back()">balik ke page sebelumnya</button>
+  </header>
+
+  <main>
+    <article>
+      <h1 id="apa-itu-html">Mental Model Nulis Tag HTML</h1>
+      <p>
+        Ketika aku mau nulis tag HTML (<code>&lt;html&gt;</code>, <code>&lt;script&gt;</code>, dsb.), step-stepnya gini:
+      </p>
+      <ol>
+        <li>Ketik dulu kurung lancipnya. <code>&lt;</code> terus <code>&gt;</code>. Jadi bentuknya kurungan gini: <code>&lt;&gt;</code></li>
+        <li>Terus arahin cursor text editor (garis vertical <code>|</code> yang biasanya kedip-kedip, tempat karakter yang kita ketik keluar) ke dalem kurungan lancip tadi. Jadi gini: <code>&lt;|&gt;</code></li>
+        <li>Terus ketik nama element HTML-nya, misal <code>html</code> atau <code>script</code>. Jadi gini: <code>&lt;html&gt;</code>, <code>&lt;script&gt;</code></li>
+      </ol>
+      <p>Kalau udah terbiasa, ga akan ada lagi tuh human error yang bikin kita lupa nutup tagnya kaya gini: <code>&lt;html</code>, <code>&lt;script</code>.</p>
+      <p>Berlaku juga untuk elemen HTML yang ada opening sama closing tag-nya.</p>
+
+      <ol>
+        <li>Ketik dulu opening tagnya: <code>&lt;html&gt;</code></li>
+        <li>Terus ketik closing tagnya: <code>&lt;/html&gt;</code>. Jadi gini: <code>&lt;html&gt;&lt;/html&gt;</code></li>
+        <li>Arahin cursor text editor ke tengah-tengah <strong>burger</strong> HTML-nya. Gini: <code>&lt;html&gt;|&lt;/html&gt;</code></li>
+        <li>Baru lanjutin ngetik isinya. Misal: <code>&lt;html&gt;halo guys&lt;/html&gt;</code></li>
+      </ol>
+    </article>
+  </main>
+
+  <footer>
+    <p class="last-updated-at">terakhir di-update: 2023-08-10 19:18:06</p>
+  </footer>
+</body>
+
+</html>

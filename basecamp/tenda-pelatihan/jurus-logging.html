@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../assets/css/index.css">
+  <link rel="manifest" href="../../assets/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
+
+  <title>Skills: Logging | Petualangan JavaScript</title>
+</head>
+
+<body>
+  <header>
+    &larr; 🏕️ <a href="../index.html">Basecamp</a> | ⛺ <a href="./index.html">Tenda Pelatihan</a>
+  </header>
+  <main>
+
+    <article>
+      <div class="tldr">
+        🚀 intinya: kita bisa liat output program kita.
+      </div>
+
+      <p>Steps</p>
+      <ol>
+        <li>
+          Buka text editor
+        </li>
+        <li>
+          Buat opening script tag:<br><code>&lt;script&gt;</code><br>🍪 Makanan! <a href="../gudang-makanan/mental-model-nulis-tag-html.html">mental model nulis tag HTML</a>
+        </li>
+        <li>Buat closing script tag-nya:<br><code>&lt;/script&gt;</code><br><br>Jadi gini:<br><code>&lt;script&gt;&lt;/script&gt;</code></li>
+        <li>
+          Arahin cursor text editor ke dalem burger script terus isi pake:<br><code>console.log('halo')</code>
+          <br><br>Jadi gini:
+          <br><code>&lt;script&gt;console.log('halo')&lt;/script&gt;</code>
+          <br><img src="./isi-text-editor.png" alt="isi text editor"/>
+        </li>
+        <li>
+          Simpen filenya jadi HTML. Cari menu "Save as..." terus di belakang nama kasih format HTML gini:
+          <br><code>.html</code>
+          <br><br>Contoh:
+          <br><code>index.html</code>
+          <br><img src="./contoh-file-html.png" alt="contoh file html"/>
+        </li>
+        <li>Buka filenya di browser. Biasanya tinggal double-click aja.</li>
+        <li>Buka devtools di browser (inspect). Biasanya pencet <code>F12</code></li>
+        <li>
+          Harusnya muncul "halo" di dalem console
+          <br>
+          <br><img src="./tampilan-di-console.png" alt="tampilan di console"/>
+        </li>
+      </ol>
+
+      <p>Selamat! Kita udah bisa bikin file HTML dan logging!</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      Belum berhasil?
+      <a href="https://wa.me/6285947061415?text=[belajarjavascript.com] halo faris, aku belum berhasil logging nih" target="_blank">Kabarin Faris</a>
+    </p>
+    <div id="log"></div>
+  </footer>
+
+  <script src="../../assets/scripts/script.js"></script>
+  <script>
+    generateLog('bisa bikin file HTML sama logging.');
+  </script>
+
+</body>
+
+</html>
