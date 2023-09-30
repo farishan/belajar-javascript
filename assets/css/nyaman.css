@@ -131,3 +131,7 @@ button {
   font-family: monospace;
   opacity: 0.5;
 }
+
+.ol--wide li {
+  margin-bottom: 2rem;
+}
